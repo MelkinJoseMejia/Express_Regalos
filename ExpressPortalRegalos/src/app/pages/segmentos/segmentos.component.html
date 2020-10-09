@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col text-right">
+        <button routerLink="/app-segmento/nuevo" class="btn btn-primary">
+            <i class="fa fa-plus"></i>
+            Agregar
+        </button>
+    </div>
+</div>
+<table class="table mt-3 animated fadeIn faster" *ngIf="segmentos.length >0">
+    <thead>
+        <tr class="bg-danger text-center">
+            <th scope="col">Nombre Segmento</th>
+            <th scope="col">Herramientas</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="text-center" *ngFor="let segmento of segmentos; let i = index">
+            <td>{{ segmento.nombreSegmento }}</td>
+            <td>
+                <button class="btn btn-info mr-1" [routerLink]="['/app-segmento',segmento.idSegmento]">
+                    <i class="fa fa-edit"></i>
+                </button>
+                <button class="btn btn-danger" (click)="borrarSegmento(segmento, i)">
+                    <i class="fa fa-trash"></i>
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="alert alert-warning text-center mt-3" *ngIf="segmentos.length === 0">
+    <h4 class="alert-heading">No hay registros</h4>
+    <p>
+        <i class="fa fa-exclamation fa-2x"></i>
+    </p>
+</div>

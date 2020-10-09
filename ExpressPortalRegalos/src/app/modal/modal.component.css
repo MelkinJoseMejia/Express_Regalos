@@ -1,0 +1,9 @@
+.modal-body {
+    background-color: #FFF;
+}
+
+.modal-header {
+    background-color :  #cc01016e;
+    color: darkslategrey;
+    padding: 1rem;
+}
