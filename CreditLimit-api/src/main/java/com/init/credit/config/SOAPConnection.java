@@ -7,6 +7,8 @@ import com.amx.www.Schema.admPerfilesEAF.V1_0.AdmPerfilesEAFProxy;
 
 public class SOAPConnection<P, S> {
 
+	
+	
 	public AdmPerfilesEAF connServiceAdmPerfilesEAF() {
 		System.setProperty("http.proxyHost", "");
 		System.setProperty("http.proxyPort", "");
