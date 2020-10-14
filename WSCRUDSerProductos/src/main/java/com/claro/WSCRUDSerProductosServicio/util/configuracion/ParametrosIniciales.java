@@ -1,4 +1,4 @@
-package com.claro.wscrudserproductosservicio.util.configuracion;
+package com.claro.WSCRUDSerProductosServicio.util.configuracion;
 
 import java.util.UUID;
 

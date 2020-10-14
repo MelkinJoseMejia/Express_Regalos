@@ -1,4 +1,4 @@
-package com.claro.wscrudserproductosservicio.util.configuracion;
+package com.claro.WSCRUDSerProductosServicio.util.configuracion;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -15,7 +15,7 @@ import java.util.Set;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.claro.wscrudserproductosservicio.util.bd.Conexion;
+import com.claro.WSCRUDSerProductosServicio.util.bd.Conexion;
 
 /**
  * Descripcion: Clase encargada de realizar la configuracion de las propiedades

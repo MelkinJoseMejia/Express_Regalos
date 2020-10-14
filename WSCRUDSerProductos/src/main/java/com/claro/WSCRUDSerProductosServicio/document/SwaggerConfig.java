@@ -17,7 +17,7 @@ public class SwaggerConfig {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("com.claro.wscrudserproductosservicio.servicio.ws.rest"))
+				.apis(RequestHandlerSelectors.basePackage("com.claro.WSCRUDSerProductosServicio.servicio.ws.rest"))
 				.paths(PathSelectors.any())
 				.build();
 	}

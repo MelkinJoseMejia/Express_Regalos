@@ -1,4 +1,4 @@
-package com.claro.wscrudserproductosservicio.util.configuracion;
+package com.claro.WSCRUDSerProductosServicio.util.configuracion;
 
 import java.io.File;
 import java.sql.CallableStatement;
@@ -11,7 +11,7 @@ import org.apache.logging.log4j.ThreadContext;
 import org.apache.logging.log4j.core.LoggerContext;
 import org.apache.logging.log4j.core.config.Configurator;
 
-import com.claro.wscrudserproductosservicio.util.bd.Conexion;
+import com.claro.WSCRUDSerProductosServicio.util.bd.Conexion;
 
 /**
  * Desccripcion: Clase encargada de realizar la configuracion de las propiedades

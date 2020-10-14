@@ -1,4 +1,4 @@
-package com.claro.wscrudserproductosservicio;
+package com.claro.WSCRUDSerProductosServicio;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

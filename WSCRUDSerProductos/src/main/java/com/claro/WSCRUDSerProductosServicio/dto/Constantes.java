@@ -1,4 +1,4 @@
-package com.claro.wscrudserproductosservicio.dto;
+package com.claro.WSCRUDSerProductosServicio.dto;
 
 /**
  * <b>Nombre: </b> Constantes </br>
@@ -65,4 +65,13 @@ public class Constantes {
 
 	public static final String USSD = "USSD";
 	public static final String SMS = "SMS";
+	
+	
+	
+	public static final String SEPARADOR_TEXTO = ";";
+	public static final String PRC_CONSULTAR_PRODUCTOS_X_USUARIO= "SER_Procesos_PKG.PR_CONSULTAR_PRODUCTOS_USUARIO";
+	public static final String PRC_REDIMIR_PRODUCTO = "SER_Procesos_PKG.PR_Redimir_Producto";
+	public static final String PRC_CARGAR_PRODUCTOS = "SER_Procesos_PKG.PR_Cargar_Productos";
+	public static final String NOMBRE_HOJA_EXCEL_CARGUE_PRODUCTOS = "Estructura Cargue Productos";
+	public static final String NOMBRE_ARCHIVO_DESCARGA_RESULTADO_CARGUE_PR = "RESULTADO_CARGUE_USUARIOS";
 }

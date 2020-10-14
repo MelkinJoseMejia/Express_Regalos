@@ -1,8 +1,16 @@
-package com.claro.wscrudserproductosservicio.dto;
+package com.claro.WSCRUDSerProductosServicio.dto;
 
 import java.io.Serializable;
 import java.sql.Date;
-import javax.persistence.*;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.NamedQuery;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
 
 
 

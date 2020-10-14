@@ -1,4 +1,4 @@
-package com.claro.wscrudserproductosservicio.util.configuracion;
+package com.claro.WSCRUDSerProductosServicio.util.configuracion;
 
 /**
  * Desccripcion: Clase que almacena la constantes utilizadas por el jar.

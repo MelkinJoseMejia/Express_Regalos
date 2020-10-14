@@ -1,4 +1,4 @@
-package com.claro.wscrudserproductosservicio.util.bd;
+package com.claro.WSCRUDSerProductosServicio.util.bd;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -10,9 +10,9 @@ import javax.sql.DataSource;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.claro.wscrudserproductosservicio.util.configuracion.Configurador;
-import com.claro.wscrudserproductosservicio.util.configuracion.Propiedades;
-import com.claro.wscrudserproductosservicio.util.configuracion.UtilsConstantes;
+import com.claro.WSCRUDSerProductosServicio.util.configuracion.Configurador;
+import com.claro.WSCRUDSerProductosServicio.util.configuracion.Propiedades;
+import com.claro.WSCRUDSerProductosServicio.util.configuracion.UtilsConstantes;
 
 /**
  * Desccripcion: Clase encargada de realizar la conexion a base de datos por
