@@ -35,7 +35,7 @@ import com.claro.wscrudserusuariosservicio.dto.SerUsuarios;
  */
 
 @RestController
-@RequestMapping(path = "/mensajes")
+@RequestMapping(path = "/")
 public class WSCRUDSerUsuariosRest {
 
 	@Autowired

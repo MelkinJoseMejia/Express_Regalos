@@ -18,8 +18,10 @@ public class Constantes {
 	//public static final String RUTA_ARCHIVO_PROPIEDADES = "C:/Users/administrador-pc/Documents/EAPworkspace/WSUtils/properties/WSAppPlantilla.properties";
 	//public static final String RUTA_ARCHIVO_PROPIEDADES = "/applications/config/Oper/CO_Claro_EnterOper_EAP_Domain_PR/WSPlantillaEAF/WSAppPlantilla.properties";
 	//public static final String RUTA_ARCHIVO_PROPIEDADES = "/applications/config/Oper/CO_Claro_FulFillOper_EAP_Domain_PR/WSPlantillaEAF/WSAppPlantilla.properties";
-	public static final String RUTA_ARCHIVO_PROPIEDADES = "/Properties/WSCRUDSerUsuarios/WSCRUDSerUsuarios.properties";
-	//public static final String RUTA_ARCHIVO_PROPIEDADES = "/Properties/WSPlantillaEAF/WSAppPlantilla.properties";
+	public static final String RUTA_ARCHIVO_PROPIEDADES = "/applications/config/EAF/CO_Claro_IntCusOper_EAF_Domain_PR/config/WSCRUDSerUsuarios/WSCRUDSerUsuarios.properties";
+//		public static final String RUTA_ARCHIVO_PROPIEDADES = "/Properties/WSCRUDSerUsuarios/WSCRUDSerUsuarios.properties";
+
+//public static final String RUTA_ARCHIVO_PROPIEDADES = "/Properties/WSPlantillaEAF/WSAppPlantilla.properties";
 	public static final String APLICACION = "WSCRUDSerUsuarios";
 
 	// Bandera para autenticacion de usuarios
