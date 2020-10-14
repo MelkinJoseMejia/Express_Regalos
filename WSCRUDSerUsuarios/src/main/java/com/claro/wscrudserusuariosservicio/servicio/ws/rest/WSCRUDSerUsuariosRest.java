@@ -45,7 +45,8 @@ import com.claro.wscrudserusuariosservicio.utils.ExcelHelper;
  */
 
 @RestController
-@RequestMapping(path = "/usuario")
+
+@RequestMapping(path = "/")
 public class WSCRUDSerUsuariosRest {
 
 	
