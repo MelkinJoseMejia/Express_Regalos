@@ -65,4 +65,11 @@ public class Constantes {
 
 	public static final String USSD = "USSD";
 	public static final String SMS = "SMS";
+	
+	
+	//CONSUMO PROCEDIMIENTOS ALMACENADOS
+	public static final String SEPARADOR_TEXTO = ";" ; 
+	public static final String PRC_CARGAR_USUARIOS = "SER_PROCESOS_PKG.PR_CARGAR_USUARIOS";
+	public static final String NOMBRE_HOJA_EXCEL_CARGUE_USUARIOS = "Estructura Cargue Usuarios";
+	public static final String NOMBRE_ARCHIVO_DESCARGA_CARGUE_USUARIOS = "RESULTADO_CARGUE_USUARIOS";
 }
